@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\hamza\eclipse-workspace\webautomation2021\ebay\target\surefire-reports\html]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Sign In Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[first name is displayed <br>]]>
+    </line>
+    <line>
+      <![CDATA[Last name is displayed  <br>]]>
+    </line>
+    <line>
+      <![CDATA[Password is displayed  <br>]]>
+    </line>
+    <line>
+      <![CDATA[Email is displayed <br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Selenium Test Suite" duration-ms="10524" started-at="2021-07-14T19:03:30 EDT" finished-at="2021-07-14T19:03:40 EDT">
+    <groups>
+    </groups>
+    <test name="Automation tests" duration-ms="10524" started-at="2021-07-14T19:03:30 EDT" finished-at="2021-07-14T19:03:40 EDT">
+      <class name="com.ebaytest.HomePageValidations">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:com.ebaytest.HomePageValidations@2b6faea6]" name="extentSetup" is-config="true" duration-ms="161" started-at="2021-07-14T19:03:30 EDT" finished-at="2021-07-14T19:03:30 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2f9a01c1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\hamza\eclipse-workspace\webautomation2021\ebay\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:com.ebaytest.HomePageValidations@2b6faea6]" name="setupDriver" is-config="true" duration-ms="5056" started-at="2021-07-14T19:03:30 EDT" finished-at="2021-07-14T19:03:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.ebay.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ latest]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.ebaytest.HomePageValidations@2b6faea6]" name="startExtent" is-config="true" duration-ms="7" started-at="2021-07-14T19:03:35 EDT" finished-at="2021-07-14T19:03:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ebaytest.HomePageValidations.fieldsValidationOnRegisterPageWithSoftAssertion()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="fieldsValidationOnRegisterPageWithSoftAssertion()[pri:0, instance:com.ebaytest.HomePageValidations@2b6faea6]" name="fieldsValidationOnRegisterPageWithSoftAssertion" duration-ms="3970" started-at="2021-07-14T19:03:35 EDT" finished-at="2021-07-14T19:03:39 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked On Sign In Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[first name is displayed <br>]]>
+            </line>
+            <line>
+              <![CDATA[Last name is displayed  <br>]]>
+            </line>
+            <line>
+              <![CDATA[Password is displayed  <br>]]>
+            </line>
+            <line>
+              <![CDATA[Email is displayed <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fieldsValidationOnRegisterPageWithSoftAssertion -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.ebaytest.HomePageValidations@2b6faea6]" name="afterEachTestMethod" is-config="true" duration-ms="503" started-at="2021-07-14T19:03:39 EDT" finished-at="2021-07-14T19:03:40 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fieldsValidationOnRegisterPageWithSoftAssertion status=SUCCESS method=HomePageValidations.fieldsValidationOnRegisterPageWithSoftAssertion()[pri:0, instance:com.ebaytest.HomePageValidations@2b6faea6] output=Clicked On Sign In Button<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.ebaytest.HomePageValidations@2b6faea6]" name="cleanUp" is-config="true" duration-ms="949" started-at="2021-07-14T19:03:40 EDT" finished-at="2021-07-14T19:03:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.ebaytest.HomePageValidations@2b6faea6]" name="generateReport" is-config="true" duration-ms="65" started-at="2021-07-14T19:03:40 EDT" finished-at="2021-07-14T19:03:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- com.ebaytest.HomePageValidations -->
+    </test> <!-- Automation tests -->
+  </suite> <!-- Selenium Test Suite -->
+</testng-results>

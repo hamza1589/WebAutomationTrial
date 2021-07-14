@@ -1,0 +1,8 @@
+com\ebay\pages\HomePage.class
+com\ebay\pages\LoginPage.class
+com\ebay\data\DataProviders.class
+com\ebay\HomePage.class
+com\ebay\pages\SignUpPage.class
+com\ebay\LoginPage.class
+com\ebay\pages\RegisterPage.class
+com\ebay\SignUpPage.class
